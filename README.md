@@ -20,7 +20,7 @@ password, "Log in was unsuccessful" will be bolded
 If you enter an invalid username and incorrect password, it wouldn't be bolded.
 
 
-<img src="green-exploit-2.gif" alt="Challenge 1">
+<img src="greenexploit2.gif" alt="Challenge 1">
 
 
 
