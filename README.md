@@ -42,7 +42,7 @@ these information shouldn't be public to everyone
 Log out and go to the public site
 Click into any salesperson and change their ID to 11 or 12 and we will
 get that information when public user shouldn't supposed to
-
+<img src="red-exploit-1.gif" alt="Challenge 1">
 Vulnerability 2: Cross-Site Request Forgery (CSRF)
 
 Create a html page with the code below
