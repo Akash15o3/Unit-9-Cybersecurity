@@ -8,11 +8,22 @@ Go to Contact section and submit a feedback with <script>alert('XSS
 ALERT');</script>
 Log into admin and once you click the feedback section, it will trigger a popup
 
+
+<img src="green-exploit-1.gif" alt="Challenge 1">
+
+
+
 Vulnerability 2: Cross-Site Scripting (XSS)
 
 Go to log in page, if you enter the correct username, but inccorect
 password, "Log in was unsuccessful" will be bolded
 If you enter an invalid username and incorrect password, it wouldn't be bolded.
+
+
+<img src="green-exploit-2.gif" alt="Challenge 1">
+
+
+
 
 # Blue:
 
@@ -25,12 +36,22 @@ change the PHPSESSIONID we got from Chrome.
 It will show that it was automatically logged into the system in the
 Safari without entering the password and username.
 
+
+<img src="blue-exploit-1.gif" alt="Challenge 1">
+
+
+
 Vulnerability 2: SQL Injection
 
 Go to the salesperson tab
 Select a random salesperson and add this at the end of the url ' OR
 SLEEP(5)=0--'
 The current browser will change in 5 seconds
+
+
+<img src="blue-exploit-2.gif" alt="Challenge 1">
+
+
 
 # Red:
 
@@ -70,4 +91,4 @@ User submit a feedback with a url that links to the html page
 Admin log into site and visit the attached feedback url
 By visiting the page, it will attack and change salesperson with the ID 5's info
 
-
+<img src="red-exploit-2.gif" alt="Challenge 1">
